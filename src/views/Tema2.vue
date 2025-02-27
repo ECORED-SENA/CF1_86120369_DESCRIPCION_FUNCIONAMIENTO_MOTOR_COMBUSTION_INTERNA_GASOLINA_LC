@@ -5,7 +5,16 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Tema 2
+      h1 Tipos de culatas para diferentes motores
+
+    Separador
+    #t_2_1.titulo-segundo.color-acento-contenido
+      h2 2.1 Culatas en motores refrigerados por aire
+
+
+    Separador
+    #t_2_2.titulo-segundo.color-acento-contenido
+      h2 2.2 Culatas para motores refrigerados por agua
 
 </template>
 

@@ -5,7 +5,16 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Titulo de primer nivel
+      h1 Análisis de las partes de un motor de cuatro tiempos
+
+    Separador
+    #t_1_1.titulo-segundo.color-acento-contenido
+      h2 1.1 Cabezote o culata
+
+
+
+
+
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Titulo item 1")
         .col-md-6.mb-4.mb-md-0

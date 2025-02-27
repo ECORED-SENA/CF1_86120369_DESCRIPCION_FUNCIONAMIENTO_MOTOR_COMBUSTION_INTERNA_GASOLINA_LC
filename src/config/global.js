@@ -1,7 +1,8 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
+    Name: 'Constitución y partes',
+    Description:
+      'El componente formativo describe el funcionamiento y las partes del motor de combustión interna, con énfasis en la culata. Explica su estructura, los tipos de refrigeración y los materiales utilizados en su fabricación. También aborda el diseño y operación de las válvulas, la rectificación de asientos y el reemplazo de guías, destacando la importancia del mantenimiento para un rendimiento óptimo del motor.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -31,12 +32,12 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Análisis de las partes de un motor de cuatro tiempos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Cabezote o culata',
             hash: 't_1_1',
           },
         ],
@@ -45,14 +46,81 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Tipos de culatas para diferentes motores',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Culatas en motores refrigerados por aire',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Culatas para motores refrigerados por agua',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Constitución y partes de la culata',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Asientos de las válvulas',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Rectificación de los asientos de las válvulas',
+            hash: 't_3_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Guía de las válvulas',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Comprobación de guía de las válvulas',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Maquinado y reemplazo de guías',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Válvulas de un motor de cuatro tiempos',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Diseño y construcción de las válvulas',
+            hash: 't_4_4',
+          },
+          {
+            numero: '4.5',
+            titulo: 'Partes de las válvulas',
+            hash: 't_4_5',
+          },
+          {
+            numero: '4.6',
+            titulo: 'Válvulas con sodio (Na) dentro del vástago',
+            hash: 't_4_6',
+          },
+          {
+            numero: '4.7',
+            titulo: 'Mediciones de la válvula',
+            hash: 't_4_7',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,21 +170,51 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
+      tema: 'Cabezote o culata',
+      referencia:
+        'Total Motors. (2020). <em>CULATA O CABEZA DE MOTOR – Partes Principales y Funcionamiento (video)</em>. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=Dv8EEnntyV4',
+    },
+    {
+      tema: 'Cabezote o culata',
+      referencia:
+        'Repuestos Acquaroni. (2019). <em>Importancia de la Culata de Motor (video)</em>. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=FVdFe4ujSnc',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Asiento de válvula',
+      significado:
+        'superficie donde la válvula sella herméticamente para evitar fugas de gases en la cámara de combustión. Su rectificación es clave para el correcto funcionamiento del motor.',
+    },
+    {
+      termino: 'Culata',
+      significado:
+        'componente del motor que forma la cámara de combustión y aloja las válvulas, las bujías y, en algunos casos, el eje de levas. Su diseño y material varían según el sistema de refrigeración utilizado.',
+    },
+    {
+      termino: 'Guía de válvula',
+      significado:
+        'elemento que permite el desplazamiento preciso de la válvula, evitando un juego axial excesivo. Puede estar fabricada en aleaciones de bronce, cobre o hierro fundido.',
+    },
+    {
+      termino: 'Rectificación',
+      significado:
+        'proceso de mecanizado que permite ajustar superficies de componentes del motor, como los asientos de válvulas, para garantizar un sellado hermético y un funcionamiento eficiente.',
+    },
+    {
+      termino: 'Válvula',
+      significado:
+        'elemento del motor que permite el ingreso de la mezcla de aire y combustible en los motores de combustión interna y la salida de los gases quemados. Puede ser de admisión o de escape.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Mahle. (s.f.). <em>Engine pars and turbochargers in original equipment quality.</em>',
       link: '',
     },
   ],
@@ -155,9 +253,10 @@ export default {
           centro: 'Centro XYZ - Regional XYZ',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Robinson Javier Ordoñez Barreiro',
+          cargo: 'Desarrollador Fullstack Junior',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Nombre responsable',
