@@ -1,18 +1,22 @@
 export default {
   global: {
-    Name: 'Constitución y partes',
+    Name: 'Constitución y Partes',
     Description:
       'El componente formativo describe el funcionamiento y las partes del motor de combustión interna, con énfasis en la culata. Explica su estructura, los tipos de refrigeración y los materiales utilizados en su fabricación. También aborda el diseño y operación de las válvulas, la rectificación de asientos y el reemplazo de guías, destacando la importancia del mantenimiento para un rendimiento óptimo del motor.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
