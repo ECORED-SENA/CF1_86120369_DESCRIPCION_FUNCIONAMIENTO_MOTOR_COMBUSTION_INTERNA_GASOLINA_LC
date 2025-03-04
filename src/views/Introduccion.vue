@@ -34,12 +34,8 @@
           br
           | ¡Muchos éxitos en esta experiencia de aprendizaje!
       .col-lg-2.d-none.d-lg-block
-        img(src='@/assets/curso/intro/img2.png' style="width: 200px; margin-top: 10px;") 
-      
-
-
-
-
+        figure(data-aos="fade-left")
+          img(src='@/assets/curso/intro/img2.png' style="width: 200px; margin-top: 10px;") 
 
 </template>
 

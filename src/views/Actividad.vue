@@ -90,7 +90,7 @@ export default {
           id: 3,
           texto:
             '¿Qué material se utiliza actualmente para la fabricación de culatas en motores refrigerados por agua?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -121,7 +121,7 @@ export default {
           id: 4,
           texto:
             '¿Cuál es la función de los asientos de válvulas en la culata?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -153,7 +153,7 @@ export default {
           id: 5,
           texto:
             '¿Qué proceso se realiza para ajustar la superficie de los asientos de válvulas?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -184,7 +184,7 @@ export default {
           id: 6,
           texto:
             '¿Cuál es la principal ventaja de las válvulas con sodio en su interior?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -216,7 +216,7 @@ export default {
           id: 7,
           texto:
             '¿¿Cuál es el objetivo del mecanizado y reemplazo de guías de válvulas?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -249,7 +249,7 @@ export default {
           id: 8,
           texto:
             '¿Cuál es la principal diferencia entre las válvulas de admisión y escape?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -284,7 +284,7 @@ export default {
           id: 9,
           texto:
             '¿Cuál de los siguientes componentes forma parte del sistema de distribución de válvulas?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -315,7 +315,7 @@ export default {
           id: 10,
           texto:
             '¿Qué se debe hacer después de rectificar una válvula para garantizar su buen funcionamiento?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {

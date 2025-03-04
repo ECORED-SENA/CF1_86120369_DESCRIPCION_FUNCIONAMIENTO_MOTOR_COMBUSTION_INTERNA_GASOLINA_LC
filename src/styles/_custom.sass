@@ -26,7 +26,6 @@
   100%
     transform: translateX(0px)
   
-  
 .banner-principal .tarjeta
   background-position: left 50% !important
 .banner-principal__row .banner-principal__img
@@ -43,7 +42,7 @@
 figcaption
   font-weight: normal
 
-///INTRODUCCION
+///INTRO
 .text-intro
   background-color: #E5F0FE
 
@@ -53,6 +52,8 @@ figcaption
   background-repeat: no-repeat
   background-size: cover
   margin-inline: -3.2rem !important
+  @media screen and (max-width: $bp-max-xs)
+    margin-inline: -1.5rem !important
 .img-tema1
   background-color: #FCF7D5
   display: flex
@@ -66,9 +67,421 @@ figcaption
   margin-right: -0.5rem !important
   @media screen and (max-width: $bp-max-xs)
     margin-right: -0.2rem !important
-  
 
+///TEMA 2 
+///BLOQUE 1   
+.tabs-c__tab--active
+  font-weight: 700
+.py-md-4
+  background-color: #F9F7F3
+  width: auto
+  padding-top: 5rem !important
+  padding-bottom: 5rem !important
+  padding-left: 5rem !important
+  padding-right: 4rem !important
+.container-svg
+  position: relative
+  display: inline-flex
+  align-items: flex-end
+  padding: 1rem 5rem 1rem 1rem
+  width: 102% 
+  @media screen and (max-width: 1024px)
+    width: 104%
+    padding: 2rem 1rem 1rem 2rem
+  &::before
+    content: ""
+    position: absolute
+    background-color: #F9EEAB
+    top: 0px
+    bottom: 0px
+    left: 0px
+    right: 0px
+    z-index: 0   
+  .cont-text
+    position: relative
+    p
+      padding: 10px
+      align-items: center
+      justify-content: center
+  .contanier-svg
+    position: relative
+    img
+      max-width: 75px
+      position: relative
+      bottom: -2px
+      left: -4px
+///FONDO - BLOQUE 2 Y 3
+.fondo-tema2
+  background-image: url("../assets/curso/tema2/fondo.png")
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  margin-inline: -3.8rem !important
+  max-width: 1350px
+  min-height: 100vh !important
+///BLOQUE 2
+.text-tema2-bloque2-1
+  background-color: #E5F0FE
+  margin-bottom: 2.3rem !important
+  display: flex
+  justify-content: center
+  align-items: center
+  padding-top: 15px
+  @media screen and (max-width: 1024px)
+    margin-left: 0.8rem !important
+.svg-tema2
+  position: relative
+  img
+    max-width: 90px
+    position: relative
+    bottom: 9px
+    left: -8px
+.text-tema2-bloque2-2
+  position: relative
+  bottom: 15px
+  margin-right: -1rem !important
+  @media screen and (max-width: 1024px)
+    padding-top: 2.5rem !important
+///BLOQUE 3
+.img-tema2-bloque3
+  max-width: 90px
+.text-tema2-bloque3
+  @media screen and (max-width: 1024px)
+    padding-top: 2rem !important
 
+///TEMA 3 
+///BLOQUE 2
+.text-tema3-bloque2
+  background-color: #BDD9FD
+  display: flex
+  justify-content: center
+  align-items: center
+  @media screen and (max-width: $bp-max-xs)
+    margin-bottom: 0.5rem
+.img-tema3-bloque2
+  @media screen and (max-width: 1024px)
+    padding-top: 1rem !important
+.container-svg-2
+  position: relative
+  display: inline-flex
+  align-items: flex-end
+  padding-left: 1.5rem
+  &::before
+    content: ""
+    position: absolute
+    background-color: $color-acento-contenido
+    top: 0px
+    bottom: 0px
+    left: 0px
+    right: 0px
+    z-index: 0
+  .cont-text-2
+    position: relative
+    p
+      padding: 0.5rem
+      padding-top: 1rem
+      padding-right: 3rem
+      color: #ffffff
+      align-items: center
+      justify-content: center
+      @media screen and (max-width: $bp-max-xs)
+        margin-right: 0.5rem
+  .contanier-svg-2
+    position: relative
+    img
+      max-width: 120px
+      position: relative
+      bottom: 6px
+      left: -4px
 
+///TEMA 3 
+///BLOQUE 3
+.container-svg-3
+  position: relative
+  display: inline-flex
+  align-items: flex-end
+  padding-left: 1.5rem
+  &::before
+    content: ""
+    position: absolute
+    background-color: #E5F0FE
+    top: 0px
+    bottom: 0px
+    left: 0px
+    right: 0px
+    z-index: 0
+  .cont-text-3
+    position: relative
+    p
+      padding: 0.5rem
+      padding-top: 1rem
+      padding-right: 1rem
+      padding-left: 2rem
+      color: $color-sistema-texto
+      align-items: center
+      justify-content: center
+      @media screen and (max-width: $bp-max-xs)
+        margin-right: 0.5rem
+  .contanier-svg-3
+    position: relative
+    img
+      max-width: 110px
+      position: relative
+      bottom: 6.7rem
+      left: 0.5rem
+.container-svg-4
+  position: relative
+  display: inline-flex
+  align-items: flex-end
+  padding-left: 1.5rem
+  &::before
+    content: ""
+    position: absolute
+    background-color: $color-acento-contenido
+    top: 0px
+    bottom: 0px
+    left: 0px
+    right: 0px
+    z-index: 0
+  .cont-text-4
+    position: relative
+    p
+      padding: 0.5rem
+      padding-top: 1rem
+      padding-right: 1rem
+      padding-left: 2rem
+      color: #ffffff
+      align-items: center
+      justify-content: center
+      @media screen and (max-width: $bp-max-xs)
+        margin-right: 0.5rem
+  .contanier-svg-4
+    position: relative
+    img
+      max-width: 120px
+      position: relative
+      bottom: -2px
+      left: 0.5rem
+.text-tema3-bloque3
+  background-color: #F2EEE7
+  border-radius: 0.5rem
+  padding: 2rem
 
-
+///TEMA 4 
+///BLOQUE 1
+.text-tema4-bloque1
+  background-color: #BDD9FD
+  padding: 30px 50px 0px 40px
+  justify-content: center
+  align-items: center
+  @media screen and (max-width: 1024px)
+    margin-top: 1rem
+.container-svg-5
+  position: relative
+  display: inline-flex
+  align-items: flex-end
+  padding-left: 0.3rem
+  padding: 1rem 0rem 1rem 0rem
+  &::before
+    content: ""
+    position: absolute
+    border-radius: 0.5rem
+    background-color: $color-acento-contenido
+    top: 0px
+    bottom: 0px
+    left: 0px
+    right: 0px
+    z-index: 0
+  .cont-text-5
+    position: relative
+    p
+      padding: 0.5rem
+      padding-top: 1rem
+      padding-right: 1rem
+      padding-left: 2rem
+      color: #ffffff
+      align-items: center
+      justify-content: center
+      @media screen and (max-width: $bp-max-xs)
+        margin-right: 0.5rem
+  .contanier-svg-5
+    position: relative
+    img
+      max-width: 120px
+      position: relative
+      bottom: 1.5rem
+      left: 1rem
+///BLOQUE 2
+.img-tema4-bloque2
+  position: relative
+  img
+    max-width: 370px
+    position: relative
+    bottom: 0rem
+    left: 0rem
+    @media screen and (max-width: 1024px)
+      max-width: 340px
+      align-content: center
+      justify-self: center
+.text-tema4-bloque2
+  background-color: $color-acento-contenido
+  display: inline-flex
+  align-items: flex-end
+  padding: 1rem 2rem 2rem 7rem
+  @media screen and (max-width: 1024px)
+    margin-top: 0.5rem
+    padding: 2rem 2rem 1rem 2rem
+  p
+    color: #ffffff
+///BLOQUE 4  
+.text-tema4-bloque4
+  background-color: $color-acento-contenido
+  display: inline-flex
+  align-items: flex-end
+  padding: 1rem 2rem 2rem 2rem
+  color: #ffffff
+  border-radius: 0.5rem
+///BLOQUE 5 
+.acordion__accion__btn--a
+  background-color: $color-acento-botones
+.acordeonA
+  background-color: $color-primario
+.acordion__activo
+  background-color: $color-adicional-1
+///BLOQUE 6
+.container-svg-6
+  position: relative
+  display: inline-flex
+  align-items: flex-end
+  padding-left: 0.3rem
+  padding: 1rem 2rem 1rem 0rem
+  &::before
+    content: ""
+    position: absolute
+    background-color: #E5F0FE
+    top: 0px
+    bottom: 0px
+    left: 0px
+    right: 0px
+    z-index: 0
+  .cont-text-6
+    position: relative
+    p
+      padding: 0.5rem
+      padding-top: 1rem
+      padding-right: 1rem
+      padding-left: 2rem
+      color: $color-sistema-texto
+      align-items: center
+      justify-content: center
+      @media screen and (max-width: $bp-max-xs)
+        margin-right: 0.5rem
+  .contanier-svg-6
+    position: relative
+    img
+      max-width: 120px
+      position: relative
+      bottom: 11.5rem
+      left: 1.3rem
+.container-svg-7
+  position: relative
+  display: inline-flex
+  align-items: flex-end
+  padding-left: 1.5rem
+  width: 100%
+  &::before
+    content: ""
+    position: absolute
+    background-color: $color-acento-contenido
+    top: 0px
+    bottom: 0px
+    left: 0px
+    right: 0px
+    z-index: 0
+  .cont-text-7
+    position: relative
+    p
+      padding: 1rem 1rem 0.7rem 2rem
+      color: #ffffff
+      align-items: center
+      justify-content: center
+      @media screen and (max-width: $bp-max-xs)
+        padding-left: 0.5rem
+  .contanier-svg-7
+    position: relative
+    img
+      max-width: 80px
+      position: relative
+      bottom: -2px
+      left: -4px
+///BLOQUE 7
+.container-svg-8
+  position: relative
+  display: inline-flex
+  align-items: flex-end
+  padding-left: 1.5rem
+  width: 100%
+  &::before
+    content: ""
+    position: absolute
+    background-color: $color-acento-contenido
+    top: 0px
+    bottom: 0px
+    left: 0px
+    right: 0px
+    z-index: 0
+  .cont-text-8
+    position: relative
+    p
+      padding: 1rem 1rem 0.5rem 2rem
+      color: #ffffff
+      align-items: center
+      justify-content: center
+      @media screen and (max-width: $bp-max-xs)
+        padding-left: 0.5rem
+  .contanier-svg-8
+    position: relative
+    img
+      max-width: 120px
+      position: relative
+      bottom: 0.2rem
+      left: 0.5rem
+///BLOQUE 8
+.text-tema4-bloque8
+  background-color: #FCF7D5
+  padding: 30px 50px 0px 40px
+  justify-content: center
+  align-items: center
+  @media screen and (max-width: $bp-max-xs)
+    margin-bottom: 1rem
+.container-svg-9
+  position: relative
+  display: inline-flex
+  align-items: flex-end
+  padding-left: 1.5rem
+  width: 100%
+  &::before
+    content: ""
+    position: absolute
+    background-color: $color-acento-contenido
+    top: 0px
+    bottom: 0px
+    left: 0px
+    right: 0px
+    z-index: 0
+  .cont-text-9
+    position: relative
+    p
+      padding: 1rem 1rem 0.5rem 2rem
+      color: #ffffff
+      align-items: center
+      justify-content: center
+      @media screen and (max-width: $bp-max-xs)
+        padding-left: 0.5rem
+  .contanier-svg-9
+    position: relative
+    img
+      max-width: 85px
+      position: relative
+      bottom: 0.7rem
+      left: 0.5rem
