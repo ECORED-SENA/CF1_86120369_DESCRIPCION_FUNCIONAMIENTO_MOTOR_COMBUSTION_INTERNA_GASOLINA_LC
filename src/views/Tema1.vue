@@ -9,7 +9,7 @@
 
     <!-- BLOQUE 1 --> 
     .row
-      .col-lg-12-mb-4
+      .col-lg-12
         p Comencemos el estudio del tema, hablando del cabezote o culata.
 
     <!-- BLOQUE 2 --> 
@@ -18,18 +18,16 @@
       h2 1.1 Cabezote o culata
 
     .row.fondo-tema1
-      .col-lg-12
-        .p-5
-          .row
-            .col-lg-5.img-tema1
-              figure
-                img(src='@/assets/curso/tema1/img1.png', alt='Texto que describa la imagen')
-            .col-lg-7.mb-0.text-tema1.mx-auto
-              p.p-5 Aunque su principal función consiste en formar la cámara de combustión, para lo cual crea un cierre hermético entre el bloque de cilindros y la cabeza del pistón, la culata también es la encargada de alojar las bujías y válvulas. En el caso de motores de cuatro tiempos (4T) o dos tiempos (2T), posee los canales o conductos de admisión y escape de los gases, donde también aloja los múltiples de admisión y de escape.
-                br
-                br
-                | Adicionalmente, alberga al eje de levas en los motores con el eje de levas a la cabeza y a los elementos de distribución de válvulas, como son: balancines, propulsores y ejes de balancines. Cuando se trata de un cabezote refrigerado por agua, este posee conductos que permiten su circulación o refrigerante para el enfriamiento de la culata y del mismo motor.
- 
+      .row
+        .col-lg-auto.img-tema1
+          figure
+            img(src='@/assets/curso/tema1/img1.png', alt='Texto que describa la imagen' style=("width: 400px")).m-auto
+        .col-lg.mb-0
+          .row.text-tema1
+            .col-12
+              p Aunque su principal función consiste en formar la cámara de combustión, para lo cual crea un cierre hermético entre el bloque de cilindros y la cabeza del pistón, la culata también es la encargada de alojar las bujías y válvulas. En el caso de motores de cuatro tiempos (4T) o dos tiempos (2T), posee los canales o conductos de admisión y escape de los gases, donde también aloja los múltiples de admisión y de escape.
+            P Adicionalmente, alberga al eje de levas en los motores con el eje de levas a la cabeza y a los elementos de distribución de válvulas, como son: balancines, propulsores y ejes de balancines. Cuando se trata de un cabezote refrigerado por agua, este posee conductos que permiten su circulación o refrigerante para el enfriamiento de la culata y del mismo motor.
+
 </template>
 
 <script>

@@ -9,13 +9,13 @@
       h1 Introducción
     
     <!-- BLOQUE DE TEXTO 1 -->   
-    .row.justify-content-center.align-items-center           
-      .col-lg-12
+    .row          
+      .col-lg-auto.mb-5
         p.mb-4 Con el paso del tiempo, el motor de combustión interna ha sufrido grandes transformaciones, para responder eficientemente a las distintas necesidades de hoy.
-        p.mb-3 Aunque podría afirmarse que, en esencia, tanto en su funcionamiento, como estructura siempre ha sido el mismo, ciertamente cada una de sus partes, sistemas y materiales han avanzado para alcanzar el mayor rendimiento posible de los vehículos.
+        p.mb-0 Aunque podría afirmarse que, en esencia, tanto en su funcionamiento, como estructura siempre ha sido el mismo, ciertamente cada una de sus partes, sistemas y materiales han avanzado para alcanzar el mayor rendimiento posible de los vehículos.
 
     <!-- BLOQUE DE TEXTO 2 -->     
-    .row.my-5
+    .row.mb-5
       .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/intro/img1.png')})`}"
@@ -28,12 +28,10 @@
     
     <!-- BLOQUE DE TEXTO 3 -->
     .row
-      .col-lg-10
-        p.text-intro.p-5 A través del estudio de estos aspectos, los aprendices podrán comprender la relevancia de la culata en el funcionamiento del motor, identificando las mejores prácticas para su mantenimiento y optimización. Este conocimiento permitirá aplicar procedimientos adecuados para mejorar el rendimiento del motor, minimizar el desgaste de sus piezas y prolongar su vida útil.
-          br
-          br
-          | ¡Muchos éxitos en esta experiencia de aprendizaje!
-      .col-lg-2.d-none.d-lg-block
+      .col-lg.text-intro
+        p.mb-4 A través del estudio de estos aspectos, los aprendices podrán comprender la relevancia de la culata en el funcionamiento del motor, identificando las mejores prácticas para su mantenimiento y optimización. Este conocimiento permitirá aplicar procedimientos adecuados para mejorar el rendimiento del motor, minimizar el desgaste de sus piezas y prolongar su vida útil.
+          p ¡Muchos éxitos en esta experiencia de aprendizaje!
+      .col-lg-auto.d-none.d-lg-block
         figure(data-aos="fade-left")
           img(src='@/assets/curso/intro/img2.png' style="width: 200px; margin-top: 10px;") 
 
