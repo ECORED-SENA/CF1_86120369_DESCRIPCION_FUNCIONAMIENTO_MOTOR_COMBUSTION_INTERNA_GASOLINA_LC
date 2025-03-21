@@ -130,7 +130,7 @@
         .col-lg-2
         .col-lg-8
           figure(data-aos="flip-right")
-            img(src='@/assets/curso/tema4/img10.png', alt='')
+            img(src='@/assets/curso/tema4/img10.png', alt='Los textos son: Vástago, Cabeza, Escape y Admisión.')
 
     Separador
     <!-- BLOQUE 5 -->
