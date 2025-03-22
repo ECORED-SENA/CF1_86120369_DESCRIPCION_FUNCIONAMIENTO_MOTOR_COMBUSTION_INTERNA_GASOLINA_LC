@@ -17,16 +17,13 @@
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Cabezote o culata
 
-    .row.fondo-tema1
-      .row
-        .col-lg-auto.img-tema1
-          figure
-            img(src='@/assets/curso/tema1/img1.png', alt='Texto que describa la imagen' style=("width: 400px")).m-auto
-        .col-lg.mb-0
-          .row.text-tema1
-            .col-12
-              p Aunque su principal función consiste en formar la cámara de combustión, para lo cual crea un cierre hermético entre el bloque de cilindros y la cabeza del pistón, la culata también es la encargada de alojar las bujías y válvulas. En el caso de motores de cuatro tiempos (4T) o dos tiempos (2T), posee los canales o conductos de admisión y escape de los gases, donde también aloja los múltiples de admisión y de escape.
-            P Adicionalmente, alberga al eje de levas en los motores con el eje de levas a la cabeza y a los elementos de distribución de válvulas, como son: balancines, propulsores y ejes de balancines. Cuando se trata de un cabezote refrigerado por agua, este posee conductos que permiten su circulación o refrigerante para el enfriamiento de la culata y del mismo motor.
+    .row.fondo-tema1.h-100.align-items-center
+      .col-lg-auto
+        figure.d-none.d-lg-block
+          img(src='@/assets/curso/tema1/img1.png', alt='Texto que describa la imagen' style=("max-width: 500px")).m-auto
+      .col-lg.text-tema1
+          p.m-0 Aunque su principal función consiste en formar la cámara de combustión, para lo cual crea un cierre hermético entre el bloque de cilindros y la cabeza del pistón, la culata también es la encargada de alojar las bujías y válvulas. En el caso de motores de cuatro tiempos (4T) o dos tiempos (2T), posee los canales o conductos de admisión y escape de los gases, donde también aloja los múltiples de admisión y de escape.
+          p.m-0 Adicionalmente, alberga al eje de levas en los motores con el eje de levas a la cabeza y a los elementos de distribución de válvulas, como son: balancines, propulsores y ejes de balancines. Cuando se trata de un cabezote refrigerado por agua, este posee conductos que permiten su circulación o refrigerante para el enfriamiento de la culata y del mismo motor.
 
 </template>
 

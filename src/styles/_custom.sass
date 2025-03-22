@@ -91,13 +91,24 @@ figcaption
   align-items: center
   height: 360px
 .text-tema1
+  max-width: 550px !important
   background-color: #F2EEE7
-  padding: 2rem 1rem 0.5rem 2rem
-  margin-left: 0.5rem
+  margin-left: -1rem
+  @media screen and (max-width: 390px)
+    padding: 1rem !important
+    margin-left: 0.7rem !important
   @media screen and (max-width: 1024px)
-    top: 2rem
-    padding: 0.5rem
-    margin-left: 0px
+    max-width: 90% !important
+    padding: 2rem
+    margin-left: 1.5rem
+  @media screen and (min-width: 1400px)
+    max-width: 56% !important
+    padding: 1.4rem 3rem 1.4rem 3rem
+    margin-left: -0.7rem
+  p
+    padding: 0.5rem 1rem 0.5rem 1rem
+  
+  
 
 
 ///TEMA 2 
