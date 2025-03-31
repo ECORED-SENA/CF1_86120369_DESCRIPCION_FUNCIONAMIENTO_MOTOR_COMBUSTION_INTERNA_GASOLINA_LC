@@ -22,6 +22,8 @@ export default {
       introduccion:
         '<b> Objetivo:</b> Verificar la comprensión de los conceptos fundamentales relacionados con la culata.',
       barajarPreguntas: true,
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: '¡VUELVA A INTENTARLO!',
       preguntas: [
         {
           id: 1,
