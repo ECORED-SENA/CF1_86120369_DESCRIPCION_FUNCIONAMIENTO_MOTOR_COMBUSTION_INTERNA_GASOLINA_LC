@@ -2,14 +2,14 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Constitución y partes de la culata
 
     <!-- BLOQUE 1 -->     
     .row.mb-4
-      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(data-aos="fade-up")
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/tema3/img1.png')})`}"
         )
@@ -25,7 +25,7 @@
       h2 3.1 Asientos de las válvulas
 
     .row.mb-4
-      .col-lg.text-tema3-bloque2
+      .col-lg.text-tema3-bloque2(data-aos="fade-right")
         .row.h-100.align-items-center
           .col-12
             p En este ámbito, se entiende por asiento, el lugar en el cual se forma el sello hermético de la válvula. Este puede ser parte del mismo material de la culata o del bloque del motor, eso para el caso de los motores más antiguos (donde se usaba la fundición gris y no en material ligero). Las culatas que tienen el asiento en material ligero se les denomina postizo. 
@@ -47,9 +47,9 @@
           figure(data-aos="fade-down")
             img(src='@/assets/curso/tema3/img3.png', alt='Imagen que presenta cómo es el asiento')
 
-    .row.caja-text-img-tema3-bloque2.mb-4
+    .row.caja-text-img-tema3-bloque2.mb-4(data-aos="fade-right")
       .col-lg-auto.align-self-center
-        figure(data-aos="fade-right").d-none.d-lg-block
+        figure.d-none.d-lg-block
           img(src="@/assets/curso/tema3/img1.svg" style="width: 81px")
       .col-lg
         p Desde los primeros motores, los cuales poseían las válvulas en el bloque de cilindros, las válvulas debían sellar herméticamente el canal de aspiración y el canal de escape con la cámara de combustión. 
@@ -95,7 +95,7 @@
       .col-lg
         .row.mb-2
           .col-12
-            .p-3.text-tema3-bloque3
+            .p-3.text-tema3-bloque3(data-aos="fade-left")
               .row
                 .col-md-auto
                   figure.svg-tema3-bloque3(data-aos="flip-right").d-none.d-lg-block
@@ -117,16 +117,16 @@
           figure(data-aos="fade-down")
             img(src='@/assets/curso/tema3/img7.png', alt='Imagen que presenta la rectificación del ángulo superior del asiento.')  
 
-    .row.caja-text-img-tema3-bloque2.mb-5
+    .row.caja-text-img-tema3-bloque2.mb-5(data-aos="fade-right")
       .col-lg-auto
-        figure(data-aos="fade-right").d-none.d-lg-block
+        figure.d-none.d-lg-block
           img(src="@/assets/curso/tema3/img1.svg" style="width: 81px")
       .col-lg
         p La herramienta que se utilice para rectificar los ángulos de los asientos de las válvulas puede utilizarse de forma manual o por medio de una máquina.
 
     .row.mb-5
       .col-lg
-        .row.text-tema3-bloque3-1
+        .row.text-tema3-bloque3-1(data-aos="fade-right")
           p.mb-2 En ese sentido, para utilizar las fresas de rectificación será necesario que esta fresa se inserte dentro de la guía de la válvula, ya que esta centrará a la herramienta de corte.
           p Luego de que esta guía haya sido comprobada debidamente, demostrando que está en buen estado con respecto al vástago de la válvula, o ya haya sido reemplazada por una nueva guía, cuando el desgaste de ella hace necesario su reemplazo.
         p.text-tema3-bloque3-2 Al girar la cuchilla o la fresa se va rectificando la superficie del asiento de forma perpendicular con respecto a la guía de la válvula, de tal manera que la válvula finalmente quedará centrada exactamente en ella. Se trabajará en los tres ángulos para obtener el ancho del asiento y que este coincida justamente en el medio de la superficie cónica de la válvula.

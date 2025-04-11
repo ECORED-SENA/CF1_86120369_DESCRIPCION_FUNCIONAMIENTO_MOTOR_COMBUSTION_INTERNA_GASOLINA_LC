@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Tipos de culatas para diferentes motores
@@ -11,7 +11,7 @@
     .row.mb-5
       .col-lg-12
         p Existen básicamente dos tipos de culatas:
-      TabsC.color-secundario.border-bottom-0
+      TabsC.color-secundario.border-bottom-0(data-aos="fade-up")
         .py-3.py-md-4(titulo="Refrigeradas por aire")
           .row
             .col-lg-6
@@ -33,9 +33,9 @@
                 p Las primeras culatas diseñadas para motores refrigerados por agua o refrigerante, eran construidas de fundiciones de hierro, porque se suponía que eran mucho más robustas y podían soportar de mejor manera la alta compresión. 
                   br
                   |Dentro de la fundición del hierro se encuentran cámaras internas, por las que debe circular el refrigerante que se envía hacia el radiador para disipar la temperatura adquirida durante la combustión.
-    .row.caja-text-img-tema2-bloque1.mb-4
+    .row.caja-text-img-tema2-bloque1.mb-4(data-aos="fade-right")
       .col-lg-auto
-        figure(data-aos="fade-right").d-none.d-lg-block
+        figure.d-none.d-lg-block
           img(src="@/assets/curso/tema2/img1.svg" style="width: 81px")
       .col-lg
         p En ambos casos, pueden estar constituidas de un solo cuerpo y para varios cilindros o culatas individuales, dependiendo del diseño del motor. 
@@ -49,7 +49,7 @@
       .row.mb-4
         .col-lg-8
           .row.h-100.align-items-center
-            .col-lg.text-tema2-bloque2
+            .col-lg.text-tema2-bloque2(data-aos="fade-right")
               p.mb-0 Por lo general, se utilizan fundiciones de material ligero, con aleaciones que le permiten tener una alta resistencia mecánica y una excelente disipación del calor. Para ello, se vierte el metal líquido en un molde de acero, enfriándose rápidamente. Con esto, aparece una estructura fina, con alta resistencia a la temperatura y a las presiones de la combustión.
             .col-lg-auto
               figure(data-aos="flip-left").d-none.d-lg-block

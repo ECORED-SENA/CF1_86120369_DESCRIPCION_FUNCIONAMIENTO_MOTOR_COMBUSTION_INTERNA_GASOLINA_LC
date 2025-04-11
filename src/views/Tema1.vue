@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Análisis de las partes de un motor de cuatro tiempos
@@ -17,7 +17,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Cabezote o culata
 
-    .row.fondo-tema1.h-100.align-items-center
+    .row.fondo-tema1.h-100.align-items-center(data-aos="fade-right")
       .col-lg-auto
         figure.d-none.d-lg-block
           img(src='@/assets/curso/tema1/img1.png', alt='Texto que describa la imagen' style=("max-width: 500px")).m-auto

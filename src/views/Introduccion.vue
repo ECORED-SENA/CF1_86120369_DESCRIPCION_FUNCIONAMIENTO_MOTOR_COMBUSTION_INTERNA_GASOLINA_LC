@@ -2,7 +2,7 @@
 .curso-main-container.introduccion
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span
           i.fas.fa-info
@@ -16,7 +16,7 @@
 
     <!-- BLOQUE DE TEXTO 2 -->     
     .row.mb-5
-      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(data-aos="fade-up")
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/intro/img1.png')})`}"
         )
@@ -28,7 +28,7 @@
     
     <!-- BLOQUE DE TEXTO 3 -->
     .row
-      .col-lg.text-intro
+      .col-lg.text-intro(data-aos="fade-right")
         p.mb-4 A través del estudio de estos aspectos, los aprendices podrán comprender la relevancia de la culata en el funcionamiento del motor, identificando las mejores prácticas para su mantenimiento y optimización. Este conocimiento permitirá aplicar procedimientos adecuados para mejorar el rendimiento del motor, minimizar el desgaste de sus piezas y prolongar su vida útil.
           p ¡Muchos éxitos en esta experiencia de aprendizaje!
       .col-lg-auto.d-none.d-lg-block

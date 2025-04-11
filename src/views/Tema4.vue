@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
       h1 Guía de las válvulas
@@ -10,9 +10,9 @@
     <!-- BLOQUE 1 -->
     .row.mb-5
       .col-lg-auto
-        imagen.d-none.d-lg-block.img-tema4-bloque2
+        imagen.d-none.d-lg-block.img-tema4-bloque2(data-aos="fade-right")
           img(src='@/assets/curso/tema4/img1.png', alt='Texto que describa la imagen')
-      .col-lg.text-tema4-bloque1
+      .col-lg.text-tema4-bloque1(data-aos="fade-left")
         p Es el elemento que permite el desplazamiento descendente y ascendente de la válvula, para que ella cierre de forma centrada en su asiento. La válvula debe deslizarse dentro de la guía sin que esta última permita un juego axial, para que la válvula trabaje con exactitud y pueda realizar el sellado hermético en su asiento.
         p De modo que la válvula recibe no solamente la fuerza perpendicular que la impulsa hacia abajo, sino que también recibe fuerzas laterales ocasionadas por el empuje del mismo balancín, que debe transmitir el giro de la leva y con ello impulsar a la válvula respectiva.
 
@@ -25,7 +25,7 @@
       .row      
         .col-lg-3
         .col-lg-6
-          figure
+          figure(data-aos="fade-up")
             img(src='@/assets/curso/tema4/img2.png', alt='Imagen que presenta la guía de la válvula.')
 
     p.text-tema4-bloque1-1  Ahora bien, debido a que la fundición gris (hierro fundido) tiene un buen coeficiente de deslizamiento, se puede evitar la utilización de guías postizas; aunque este factor también permite la posibilidad de instalarlas en el caso de excesivo desgaste de este orificio básico original.
@@ -34,7 +34,7 @@
       .col-lg
         .row.mb-2
           .col-12
-            .p-3.text-tema4-bloque1-2
+            .p-3.text-tema4-bloque1-2(data-aos="fade-right")
               .row
                 .col-md-auto
                   figure.svg-tema3-bloque3(data-aos="flip-right").d-none.d-lg-block
@@ -68,9 +68,9 @@
         p Cuando un motor ha trabajado un período normal y el desgaste de sus partes obliga a que deba ser comprobado para su reparación, una de las partes que se debe comprobar con mucho cuidado es la guía de válvula; de ella depende en gran parte el centrado y el cierre hermético de la válvula en su asiento.
         .row
           .col-lg-auto
-            figure.d-none.d-lg-block.img-tema4-bloque2
+            figure.d-none.d-lg-block.img-tema4-bloque2(data-aos="fade-right")
               img(src='@/assets/curso/tema4/img5.png', alt='Texto que describa la imagen' style=("width: 310px"))
-          .col.text-tema4-bloque2
+          .col.text-tema4-bloque2(data-aos="fade-right")
             p Durante estos trabajos de reparación se deberá comprobar el desgaste que presenta la guía. El técnico deberá comprobar la redondez del orificio de la guía, que permite hasta un máximo de 4 centésimas de ovalamiento, y deberá comprobar también el desgaste interno a lo largo de ella, desgaste que no deberá superar las 3 centésimas de conicidad como promedio, aunque estos valores serán tomados con referencia a las tolerancias especificadas por el fabricante.
           p.my-3 Para ello se utilizará un reloj micrométrico con un palpador y del resultado de las medidas tomadas habrá que compararlas con la medición del vástago de la válvula, obteniendo con ello la holgura entre ellas, con la que se decidirá si rectificar la guía o reemplazarla por una nueva.
       .col-lg-auto.img-tema4-bloque2
@@ -83,7 +83,7 @@
       h2 4.2 Maquinado y reemplazo de guías
 
     .row.mb-4
-      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(data-aos="fade-up")
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/tema4/img7.png')})`}"
         )
@@ -114,7 +114,7 @@
     .row.mb-5
       .col-lg
         p Como ya se ha explicado anteriormente, las válvulas son los elementos que permiten el ingreso de la mezcla aire y combustible en los motores <em>Otto</em>, o el ingreso del aire en los motores <em>Diesel</em>, después de producirse la combustión, permitiendo también el desalojo o salida de los gases combustionados.
-        p.text-tema4-bloque4 La cabeza de las válvulas de admisión en un motor es generalmente, de mayor dimensión a las válvulas de escape, debido a que la mezcla o el aire aspirado necesita ingresar en la mayor cantidad posible, para lograr un buen llenado del cilindro y con ello, una buena combustión. Al no tener el motor más ayuda que la depresión o succión causada por el desplazamiento del pistón, se las construye de mayor diámetro.
+        p.text-tema4-bloque4(data-aos="fade-right") La cabeza de las válvulas de admisión en un motor es generalmente, de mayor dimensión a las válvulas de escape, debido a que la mezcla o el aire aspirado necesita ingresar en la mayor cantidad posible, para lograr un buen llenado del cilindro y con ello, una buena combustión. Al no tener el motor más ayuda que la depresión o succión causada por el desplazamiento del pistón, se las construye de mayor diámetro.
         p En cambio, las válvulas de escape pueden permitir desalojar a los mismos gases quemados, pero como ellos tienen mayor presión, temperatura y velocidad, pueden salir con mayor facilidad por una válvula de menor diámetro que la que posee la válvula de admisión.
       .col-lg-auto
         figure(data-aos="fade-left").d-none.d-lg-block.img-tema4-bloque2
@@ -141,7 +141,7 @@
       .col-lg-auto.img-tema4-bloque5
         figure(data-aos="fade-up").d-none.d-lg-block.img-tema4-bloque2
           img(src="@/assets/curso/tema4/img11.png", alt="alt" style="width: 400px")
-      .col-lg
+      .col-lg(data-aos="fade-left")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
           .row(titulo="El vástago")
             .col-12
@@ -174,7 +174,7 @@
       .col-lg
         .row.mb-2
           .col-12
-            .p-3.text-tema4-bloque6
+            .p-3.text-tema4-bloque6(data-aos="fade-right")
               .row
                 .col-md-auto
                   figure.svg-tema3-bloque3(data-aos="flip-right").d-none.d-lg-block
@@ -198,7 +198,7 @@
           figure(data-aos="flip-right")
             img(src='@/assets/curso/tema4/img14.png', alt='')
 
-    .row.caja-text-img-tema3-bloque2.mb-4.align-items-center
+    .row.caja-text-img-tema3-bloque2.mb-4.align-items-center(data-aos="fade-right")
       .col-lg-auto
         figure(data-aos="fade-right").d-none.d-lg-block
           img(src="@/assets/curso/tema3/img1.svg" style="width: 81px")
@@ -229,7 +229,7 @@
           figure(data-aos="flip-right")
             img(src='@/assets/curso/tema4/img16.png', alt='Imagen que presenta la comprobación de la medida del vástago.')
     
-    .row.caja-text-img-tema4-bloque7.mb-4
+    .row.caja-text-img-tema4-bloque7.mb-4(data-aos="fade-right")
       .col-lg-auto.align-self-center
         figure(data-aos="fade-right").d-none.d-lg-block
           img(src="@/assets/curso/tema3/img1.svg" style="width: 81px")
@@ -242,11 +242,11 @@
       h2 4.7 Mediciones de la válvula 
 
     .row.h-100.align-items-center.mb-5
-      .col-lg.text-tema4-bloque8
+      .col-lg.text-tema4-bloque8(data-aos="fade-right")
         p Así como en el caso de las guías de válvula, su vástago debe ser medido con exactitud, para determinar si ha tenido desgastes excesivos durante su trabajo y la holgura entre este vástago y la guía de válvula está todavía dentro de tolerancia.
         p El técnico deberá comprobar la medida del vástago, en tres posiciones; es decir, en la parte alta, en el medio y en la parte baja del vástago, para comprobar si está cilíndrico o presenta conicidad. También se deberá medir en dos sentidos y en las tres posiciones mencionadas, para determinar si el vástago está presentando un ovalamiento.
-      .col-lg-auto
-        imagen(data-aos="fade-left").img-tema4-bloque2
+      .col-lg-auto(data-aos="fade-left")
+        imagen.img-tema4-bloque2
           img(src='@/assets/curso/tema4/img17.png', alt='Texto que describa la imagen' style=("width: 430px"))
     
     .row.fondo-tema1
@@ -261,7 +261,7 @@
           figure(data-aos="flip-right")
             img(src='@/assets/curso/tema4/img18.png', alt='Imagen que presenta la comprobación de la medida del vástago.')
     
-    .row.caja-text-img-tema4-bloque8.mb-4
+    .row.caja-text-img-tema4-bloque8.mb-4(data-aos="fade-right")
       .col-lg-auto.align-self-center
         figure(data-aos="fade-right").d-none.d-lg-block
           img(src="@/assets/curso/tema3/img1.svg" style="width: 81px")
