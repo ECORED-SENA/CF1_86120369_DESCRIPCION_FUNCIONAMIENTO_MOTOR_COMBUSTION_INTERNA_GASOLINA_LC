@@ -196,7 +196,7 @@
         .col-lg-3
         .col-lg-6
           figure(data-aos="flip-right")
-            img(src='@/assets/curso/tema4/img14.png', alt='')
+            img(src='@/assets/curso/tema4/img14.png', alt='Imagen que ilustra las partes de la valvula')
 
     .row.caja-text-img-tema3-bloque2.mb-4.align-items-center(data-aos="fade-right")
       .col-lg-auto

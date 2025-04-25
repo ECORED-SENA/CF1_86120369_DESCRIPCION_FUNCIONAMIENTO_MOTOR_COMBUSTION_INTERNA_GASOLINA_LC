@@ -21,7 +21,7 @@
               .text-content.d-flex.flex-column
                 h4 Refrigeradas por aire
                 p.mb-0 Están provistas de nervios de refrigeración (aletas), dispuestas de tal manera, que permiten al aire de refrigeración ‘chocar' contra estas superficies y atravesarlas, con el objetivo de disipar la temperatura adquirida por la combustión. 
-                p.mb-0 Un ejemplo de ello, se puede observar en los cabezotes de motores de dos tiempos, especialmente en las motocicletas, motores <em>VolksWagen, Porsche, Deutz </em> entre otros.
+                p.mb-0 Un ejemplo de ello, se puede observar en los cabezotes de motores de dos tiempos, especialmente en las motocicletas, motores VolksWagen, Porsche, Deutz, entre otros.
         .py-3.py-md-4(titulo="Refrigeradas por agua o por un refrigerante")
           .row
             .col-lg-6.mb-5.mb-md-0

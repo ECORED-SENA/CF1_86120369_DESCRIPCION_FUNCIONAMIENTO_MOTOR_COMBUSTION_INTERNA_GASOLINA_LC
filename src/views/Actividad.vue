@@ -217,7 +217,7 @@ export default {
         {
           id: 7,
           texto:
-            '¿¿Cuál es el objetivo del mecanizado y reemplazo de guías de válvulas?',
+            '¿Cuál es el objetivo del mecanizado y reemplazo de guías de válvulas?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
