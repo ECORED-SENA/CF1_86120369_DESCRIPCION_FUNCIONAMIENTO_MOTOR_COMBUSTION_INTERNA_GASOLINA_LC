@@ -35,17 +35,14 @@
             
     p.mb-5 El asiento, por lo tanto, es un anillo de material resistente al trabajo continuo de “golpeteo”, resistente a la corrosión ocasionada por los agentes de la combustión y aditivos del combustible; entre ellos el plomo, material que daña inclusive a las válvulas, cilindros y pistones.
 
-    .row.fondo-tema1
-      .col-lg-2
-      .col-lg-2
+    .row.justify-content-center.fondo-tema1
+      .col-lg-auto(data-aos="fade-down")
         .titulo-sexto.color-acento-contenido
           h5 Figura 1.
           span Asiento
-      .row      
-        .col-lg-2
-        .col-lg-8
-          figure(data-aos="fade-down")
-            img(src='@/assets/curso/tema3/img3.png', alt='Imagen que presenta cómo es el asiento')
+        figure
+          img(src='@/assets/curso/tema3/img3.png', alt='Imagen que presenta cómo es el asiento', style="width: 700px").m-auto
+        figcaption.mt-2 #[b Nota.] Asiento (s.f.). [Imagen]
 
     .row.caja-text-img-tema3-bloque2.mb-4(data-aos="fade-right")
       .col-lg-auto.align-self-center
@@ -56,31 +53,25 @@
     
     p.mb-5 El asiento está alojado dentro de la culata o cabezote, con una tolerancia de ajuste dentro del maquinado de la fundición original de la culata. Después de instalado, se debe rectificar, para que la superficie que está en contacto con la válvula pueda realizar el cierre hermético con la cámara de combustión.
 
-    .row.fondo-tema1
-      .col-lg-2
-      .col-lg
+    .row.justify-content-center.fondo-tema1
+      .col-lg-auto
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 2.
           span Alojamiento del asiento
-      .row
-        .col-lg-2    
-        .col-lg-8    
-          figure.img-tema3-bloque2(data-aos="fade-down")
-            img(src='@/assets/curso/tema3/img4.png', alt='Imagen que presenta cómo el asiento está alojado dentro de la culata.')
+        figure.img-tema3-bloque2(data-aos="fade-down")
+          img(src='@/assets/curso/tema3/img4.png', alt='Imagen que presenta cómo el asiento está alojado dentro de la culata.', style="width: 700px").m-auto
+        figcaption.mt-2 #[b Nota.] Alojamiento del asiento (s.f.). [Imagen]
 
     p.mb-5.text-tema3-bloque2-1 Este asiento debe tener un ancho promedio desde 1.8 hasta 3.2 mm en las válvulas de admisión y desde 2.5 hasta 3.5 mm en las válvulas de escape. Para conseguir este ancho, se rectifica el diámetro interior del asiento y la cara frontal, con ángulos superiores a los 75 grados, que le permiten también un buen llenado del cilindro y una buena evacuación de los gases de escape. En la figura podemos observar las dimensiones del asiento de una válvula, asiento que debe tener un promedio de las 2/3 partes del ancho total de la superficie cónica de la válvula.
 
-    .row.fondo-tema1
-      .col-lg-3
-      .col-lg
+    .row.justify-content-center.fondo-tema1
+      .col-lg-auto
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 3.
           span Dimensiones del asiento de una válvula
-      .row
-        .col-lg-3 
-        .col-lg-6
-          figure(data-aos="fade-down")
-            img(src='@/assets/curso/tema3/img5.png', alt='Los ángulos que se indican en el gráfico nos muestran el procedimiento para el rectificado.')
+        figure(data-aos="fade-down")
+          img(src='@/assets/curso/tema3/img5.png', alt='Los ángulos que se indican en el gráfico nos muestran el procedimiento para el rectificado.', style="width: 500px").m-auto
+        figcaption.mt-2 #[b Nota.] Dimensiones del asiento de una válvula (s.f.). [Imagen]
        
 
     Separador
@@ -105,17 +96,14 @@
                   p.mb-0 Seguramente, como el ancho de este asiento será seguramente mayor y no estará necesariamente en el centro de la superficie cónica de la válvula, se requerirá rectificar al asiento en su parte baja, con un ángulo de 15°, para determinar el borde inferior del asiento.
         p Una vez hecho lo anterior, se revisará en su parte alta interior con un ángulo de 75°, para determinar el borde superior del asiento. Al repasar cada uno de estos ángulos será podrá obtener exactamente, el ancho del asiento y también que este se encuentre en la mitad de la superficie cónica de la válvula. Por lo que sigue, revisando tales ángulos es posible obtener tanto el ancho como el centrado requerido.
         
-    .row.mb-5
-      .col-lg-1
-      .col-lg
+    .row.justify-content-center.mb-5 
+      .col-lg-auto
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 4.
           span Rectificación del ángulo superior del asiento
-      .row
-        .col-1       
-        .col-lg-10
-          figure(data-aos="fade-down")
-            img(src='@/assets/curso/tema3/img7.png', alt='Imagen que presenta la rectificación del ángulo superior del asiento.')  
+        figure(data-aos="fade-down")
+          img(src='@/assets/curso/tema3/img7.png', alt='Imagen que presenta la rectificación del ángulo superior del asiento.', style="width: 970px").m-auto
+        figcaption.mt-2 #[b Nota.] Rectificación del ángulo superior del asiento (s.f.). [Imagen]
 
     .row.caja-text-img-tema3-bloque2.mb-5(data-aos="fade-right")
       .col-lg-auto
@@ -134,17 +122,14 @@
         figure(data-aos="fade-left").d-none.d-lg-block
           img(src='@/assets/curso/tema3/img8.png', alt='Texto que describa la imagen' style=("width: 400px"))
 
-    .row.fondo-tema1
-      .col-lg-2
-      .col-lg
-        .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 5.
-          span Fresa o cuchilla de rectificación
-      .row      
-        .col-lg-2
-        .col-lg-8
+    .row.justify-content-center.fondo-tema1
+        .col-lg-auto
+          .titulo-sexto.color-acento-contenido.mb-3
+            h5 Figura 5.
+            span Fresa o cuchilla de rectificación
           figure(data-aos="fade-down")
-            img(src='@/assets/curso/tema3/img9.png', alt='Imagen que presenta la fresa o cuchilla de rectificación.')
+            img(src='@/assets/curso/tema3/img9.png', alt='Imagen que presenta la fresa o cuchilla de rectificación.', style="width: 550px").m-auto
+          figcaption.mt-2 #[b Nota.] Fresa o cuchilla de rectificación (s.f.). [Imagen]
        
 </template>
 

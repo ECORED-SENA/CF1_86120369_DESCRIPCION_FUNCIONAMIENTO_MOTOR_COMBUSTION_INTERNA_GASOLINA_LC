@@ -33,6 +33,14 @@ export default {
   data: () => ({
     mostrarIndicadorTarjetaAudio: true,
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 

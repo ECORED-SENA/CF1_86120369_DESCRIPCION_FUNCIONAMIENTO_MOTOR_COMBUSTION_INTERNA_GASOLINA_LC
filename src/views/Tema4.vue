@@ -9,24 +9,21 @@
 
     <!-- BLOQUE 1 -->
     .row.mb-5
-      .col-lg-auto
-        imagen.d-none.d-lg-block.img-tema4-bloque2(data-aos="fade-right")
+      .col-lg-auto(data-aos="fade-right")
+        imagen.d-none.d-lg-block.img-tema4-bloque2
           img(src='@/assets/curso/tema4/img1.png', alt='Texto que describa la imagen')
       .col-lg.text-tema4-bloque1(data-aos="fade-left")
         p Es el elemento que permite el desplazamiento descendente y ascendente de la válvula, para que ella cierre de forma centrada en su asiento. La válvula debe deslizarse dentro de la guía sin que esta última permita un juego axial, para que la válvula trabaje con exactitud y pueda realizar el sellado hermético en su asiento.
         p De modo que la válvula recibe no solamente la fuerza perpendicular que la impulsa hacia abajo, sino que también recibe fuerzas laterales ocasionadas por el empuje del mismo balancín, que debe transmitir el giro de la leva y con ello impulsar a la válvula respectiva.
 
-    .row.fondo-tema1
-      .col-lg-3
-      .col-lg
+    .row.justify-content-center.fondo-tema1
+      .col-lg-6(data-aos="fade-up")
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 6.
           span Guía de la válvula
-      .row      
-        .col-lg-3
-        .col-lg-6
-          figure(data-aos="fade-up")
-            img(src='@/assets/curso/tema4/img2.png', alt='Imagen que presenta la guía de la válvula.')
+        figure
+          img(src='@/assets/curso/tema4/img2.png', alt='Imagen que presenta la guía de la válvula.', style="width: 600px").m-auto
+        figcaption.mt-2 #[b Nota.] Guía de la válvula (s.f.). [Imagen]
 
     p.text-tema4-bloque1-1  Ahora bien, debido a que la fundición gris (hierro fundido) tiene un buen coeficiente de deslizamiento, se puede evitar la utilización de guías postizas; aunque este factor también permite la posibilidad de instalarlas en el caso de excesivo desgaste de este orificio básico original.
 
@@ -46,17 +43,14 @@
         figure(data-aos="fade-left").d-none.d-lg-block.img-tema4-bloque2
           img(src='@/assets/curso/tema4/img3.png', alt='Texto que describa la imagen' style=("width: 400px"))
 
-    .row.fondo-tema1
-      .col-lg-2
-      .col-lg
+    .row.justify-content-center.fondo-tema1
+      .col-lg-auto(data-aos="flip-right")
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 7.
           span Sector cónico de la guía de la válvula
-      .row      
-        .col-lg-2
-        .col-lg-8
-          figure(data-aos="flip-right")
-            img(src='@/assets/curso/tema4/img4.png', alt='Imagen que presenta el sector cónico de la guía de la válvula.')
+        figure
+          img(src='@/assets/curso/tema4/img4.png', alt='Imagen que presenta el sector cónico de la guía de la válvula.', style="width: 600px").m-auto
+        figcaption.mt-2 #[b Nota.] Sector cón de la guía de la válvula (s.f.). [Imagen]
 
     Separador
     <!-- BLOQUE 2 -->
@@ -94,17 +88,14 @@
             | Para rectificar una guía o el orificio propio de la culata, cuando este orifico trabaja como guía de la válvula, se utilizará una “rima o escariador” calibrado a la medida de la nueva válvula, o se utilizará una rima regulable, para que con el trabajo de mecanizado podamos llegar hasta la medida exacta.
     p.mb-5 Esta medida final deberá permitir una holgura adecuada entre el vástago de la válvula y el orificio rectificado de la guía, holgura que permitirá el deslizamiento de la válvula, considerando la lubricación entre superficies y la dilatación tanto de la guía como de la válvula, dilatación que se presenta con los incrementos de temperatura durante el trabajo del motor.
     
-    .row.fondo-tema1
-      .col-lg-3
-      .col-lg
+    .row.justify-content-center.fondo-tema1
+      .col-lg-auto(data-aos="flip-right")
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 8.
           span Rima o escariador
-      .row      
-        .col-lg-3
-        .col-lg-6
-          figure(data-aos="flip-right")
-            img(src='@/assets/curso/tema4/img8.png', alt='Imagen que presenta cómo es una rima o escariador.')
+        figure
+          img(src='@/assets/curso/tema4/img8.png', alt='Imagen que presenta cómo es una rima o escariador.', style="width: 500px").m-auto
+        figcaption.mt-2 #[b Nota.] Rima o escariador (s.f.). [Imagen]
 
     Separador
     <!-- BLOQUE 4 -->
@@ -120,17 +111,14 @@
         figure(data-aos="fade-left").d-none.d-lg-block.img-tema4-bloque2
           img(src='@/assets/curso/tema4/img9.png', alt='Imagen que presenta el diagrama de la guía de la válvula.' style=("width: 380px"))
 
-    .row.fondo-tema1
-      .col-lg-3
-      .col-lg
+    .row.justify-content-center.fondo-tema1
+      .col-lg-auto(data-aos="flip-right")
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 9.
           span Diferencias entre las válvulas de admisión y escape
-      .row      
-        .col-lg-2
-        .col-lg-8
-          figure(data-aos="flip-right")
-            img(src='@/assets/curso/tema4/img10.png', alt='Los textos son: Vástago, Cabeza, Escape y Admisión.')
+        figure
+          img(src='@/assets/curso/tema4/img10.png', alt='Los textos son: Vástago, Cabeza, Escape y Admisión.', style="width: 600px").m-auto
+        figcaption.mt-2 #[b Nota.] Diferencias entre las válvulas de admisión y escape (s.f.). [Imagen]
 
     Separador
     <!-- BLOQUE 5 -->
@@ -153,17 +141,14 @@
     
     p.mb-5 Ambas son soldadas a base de fusión a altas temperaturas, formando un solo cuerpo final.
 
-    .row.fondo-tema1
-      .col-lg-3
-      .col-lg
+    .row.justify-content-center.fondo-tema1
+      .col-lg-auto(data-aos="flip-right")
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 10.
           span Cabeza de la válvula
-      .row      
-        .col-lg-3
-        .col-lg-6
-          figure(data-aos="flip-right")
-            img(src='@/assets/curso/tema4/img12.png', alt='Imagen que presenta la cabeza de la válvula.')
+        figure
+          img(src='@/assets/curso/tema4/img12.png', alt='Imagen que presenta la cabeza de la válvula.', style="width: 500px").m-auto
+        figcaption.mt-2 #[b Nota.] Cabeza de la válvula (s.f.). [Imagen]
 
     Separador
     <!-- BLOQUE 6 -->
@@ -186,17 +171,14 @@
         figure(data-aos="fade-left").d-none.d-lg-block.img-tema4-bloque2.img-tema4-bloque6
           img(src='@/assets/curso/tema4/img13.png', alt='Texto que describa la imagen' style=("width: 350px"))
 
-    .row.fondo-tema1
-      .col-lg-3
-      .col-lg
+    .row.justify-content-center.fondo-tema1
+      .col-lg-auto(data-aos="flip-right")
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 11.
           span Partes de la válvula
-      .row      
-        .col-lg-3
-        .col-lg-6
-          figure(data-aos="flip-right")
-            img(src='@/assets/curso/tema4/img14.png', alt='Imagen que ilustra las partes de la valvula')
+        figure
+          img(src='@/assets/curso/tema4/img14.png', alt='Imagen que ilustra las partes de la valvula', style="width: 500px").m-auto
+        figcaption.mt-2 #[b Nota.] Partes de la válvula (s.f.). [Imagen]
 
     .row.caja-text-img-tema3-bloque2.mb-4.align-items-center(data-aos="fade-right")
       .col-lg-auto
@@ -217,17 +199,14 @@
       .col-lg.align-self-center
         p Algunos constructores, con el objetivo de mejorar su estructura y volverla más resistente, en especial en motores más exigidos, han construido sus válvulas con vástago hueco, relleno de sodio, material sólido que se convierte en líquido con las altas temperaturas de trabajo. Esta particularidad del sodio, se aprovecha en las válvulas para transportar la alta temperatura de la cabeza hacia el vástago, y de él hacia la guía y de ella hacia el medio refrigerante. Adicionalmente, al tener una válvula “vaciada”, su peso total disminuye notablemente, reduciendo la inercia que se produce durante su movimiento ascendente y descendente, en especial con alta velocidad de funcionamiento del motor.
     
-    .row.fondo-tema1
-      .col-lg-3
-      .col-lg
+    .row.justify-content-center.fondo-tema1
+      .col-lg-auto(data-aos="flip-right")
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 12.
           span Válvula con sodio dentro del vástago
-      .row      
-        .col-lg-3
-        .col-lg-6
-          figure(data-aos="flip-right")
-            img(src='@/assets/curso/tema4/img16.png', alt='Imagen que presenta la comprobación de la medida del vástago.')
+        figure
+          img(src='@/assets/curso/tema4/img16.png', alt='Imagen que presenta la comprobación de la medida del vástago.', style="width: 500px").m-auto
+        figcaption.mt-2 #[b Nota.] Válvula con sodio dentro del vástago (s.f.). [Imagen]
     
     .row.caja-text-img-tema4-bloque7.mb-4(data-aos="fade-right")
       .col-lg-auto.align-self-center
@@ -249,17 +228,14 @@
         imagen.img-tema4-bloque2
           img(src='@/assets/curso/tema4/img17.png', alt='Texto que describa la imagen' style=("width: 430px"))
     
-    .row.fondo-tema1
-      .col-lg-3
-      .col-lg
+    .row.justify-content-center.fondo-tema1
+      .col-lg-auto(data-aos="flip-right")
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 13.
           span Comprobación de la medida del vástago
-      .row      
-        .col-lg-3
-        .col-lg-6
-          figure(data-aos="flip-right")
-            img(src='@/assets/curso/tema4/img18.png', alt='Imagen que presenta la comprobación de la medida del vástago.')
+        figure
+          img(src='@/assets/curso/tema4/img18.png', alt='Imagen que presenta la comprobación de la medida del vástago.', style="width: 500px").m-auto
+        figcaption.mt-2 #[b Nota.] Comprobación de la medida del vástago (s.f.). [Imagen]
     
     .row.caja-text-img-tema4-bloque8.mb-4(data-aos="fade-right")
       .col-lg-auto.align-self-center
